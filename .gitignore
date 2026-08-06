@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+karman_rl/results/models/
+karman_rl/results/logs/
+.idea/
