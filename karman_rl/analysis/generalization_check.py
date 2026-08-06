@@ -21,7 +21,7 @@ def load_model(stage='stage3'):
 
 def run_fixed_start(model, y0, seed):
     cur = dict(CURRICULUM['stage3'])
-    cur['y_start_range'] = (y0, y0)   # pin the start, everything else stays full difficulty
+    cur['y_start_range'] = (y0, y0)   
     env = KarmanEnv(curriculum=cur)
     obs, _ = env.reset(seed=seed)
     done, total_r, thrusts = False, 0.0, []
