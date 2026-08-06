@@ -13,7 +13,7 @@ completion improving from 10% to 100%.
 - `env/` — vortex flow model, UAV dynamics, Gymnasium environment
 - `train/` — curriculum config and training entry point
 - `analysis/` — figure generation, sensitivity sweep, generalization sweep
-- `report/` — full write-up (`main.tex`) and figures
+  
 
 ## Method
 
@@ -33,8 +33,4 @@ python analysis/sensitivity.py
 python analysis/generalization_check.py
 ```
 
-## Report
 
-See `report/main.tex` for the full write-up, including the flow model
-derivation, reward formulation, sensitivity analysis, and generalization
-results.
